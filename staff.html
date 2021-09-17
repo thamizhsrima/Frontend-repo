@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>staff</title>
+<style>
+.top
+{
+	padding:0px;
+	float: left;
+	position: fixed;
+	margin-left: 45px;
+}
+#menu ul
+{
+	list-style: none;
+	box-shadow:10px 25px 75px 30px white;
+	opacity:0.98;
+}
+#menu ul li
+{
+	background-color:brown;
+	border:1px solid burlywood;
+	width: 190px;
+	height:65px;
+	line-height:65px;
+	text-align: center;
+	float: left;
+	position: relative;
+	border-radius:8px;
+	margin:1.5px;
+}
+#menu
+{
+	margin: auto;
+}
+#menu ul li:nth-child(1)
+{
+	width:200px;
+}
+#menu ul li:nth-child(2)
+{
+	width:200px;
+}
+#menu ul li:nth-child(3)
+{
+	width:200px;
+}
+#menu ul li:nth-child(4)
+{
+	width:200px;
+}
+#menu ul li:nth-child(6)
+{
+	width:200px;
+}
+#menu ul.drop li
+{
+		width:200px;
+		background-color:yellowgreen;
+		border:solid yellowgreen;
+		margin:1px;
+		margin-left:auto;
+}
+#menu ul li a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+	font-family:"Maiandra GD";
+	font-size:125%;
+}
+#menu ul li a:hover
+{
+	background-color: cyan;
+	border:1px solid#229954;
+	border-radius:6px;
+	font-size:120%;
+	font-family:"Maiandra GD";
+	box-shadow:0px 0px 20px 0px white;
+}
+#menu ul ul
+{
+	position: absolute;
+	display: none;
+}
+#menu ul li:hover>ul
+{
+	display: block;
+}
+#menu ul li:hover>ul
+{
+	animation:load ls forwards;
+	animation-duration:600ms;
+	animation-name: menu;
+}
+@keyframes menu
+{
+	0%
+	{
+		opacity:0;
+		transform: rotatey(-90deg)translateY(30px);
+	}
+	100%
+	{
+		opacity:1;
+		transform: rotatey(-90deg)translateY(30px);
+	}
+}
+.button
+{
+	border-radius: 2%;
+	height: 3%;
+	width: 5%;
+}
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.copyright
+{
+	text-align:center;
+	padding:0px 80px 0px 80px;
+	background: #05548e;
+	color: white;
+	font-family: "Arial";
+	line-height: 20px;
+}
+.det
+{
+	text-align:right;
+	padding:0px 10px 0px 80px;
+	background: #05548e;
+	color: white;
+	font-family: "Lucida Grande";
+	line-height: 15px;
+}
+.maintained
+{   
+	text-align:right;
+	padding:0px 80px 0px 80px;
+	background: #05548e;
+	color: aqua;
+	font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+	line-height: 20px;
+}
+</style>
+</head>
+<body>
+	<section class="intro">
+		<div class="top">
+			<div id="menu" align="center">
+				<ul><b>
+					<li><a href="home.html">HOME</a></li>
+					<li><a href="#">ABOUT US</a>
+						<ul class="drop">
+							<li><a href="aboutus.html">Introduction</a></li>
+							<li><a href="rules.html">Rules&Regulations</a></li>
+							<li><a href="staff.html">Staff Info</a></li>
+						</ul>
+					</li>
+					<li><a href="#">DEPARTMENTS</a>
+						<ul class="drop">
+							<li><a href="dept-skin.html">Skin</a></li>
+							<li><a href="dept-dental.html">Dentalcare</a></li>
+							<li><a href="dept-ortho.html">Orthopadics</a></li>
+							<li><a href="dept-cardio.html">Cardiology</a></li>
+							<li><a href="dept-radio.html">Radiology</a></li>
+							<li><a href="dept-surgery.html">Surgery</a></li>
+							<li><a href="dept-physio.html">Physiotherapists</a></li>
+						</ul>
+					</li>
+					<li><a href="#">EVENTS</a>
+						<ul class="drop">
+							<li><a href="conf&work.html"><font size="3.5px">Conference & Workshop</font></a></li>
+							<li><a href="currentevent.html"><font size="3.5px">Current Events</font></a></li>
+							<li><a href="trainning.html"><font size="3.5px">Trainning</font></a></li>
+						</ul>
+					</li>
+					<li><a href="appoint.html">APPOINTMENT</a></li>
+					<li><a href="#">CONTACT US</a>
+					<ul class="drop">
+							<li><a href="cont-reqinfo.html">Request Info</a></li>
+							<li><a href="cont-feedback.html">Feedback</a></li>
+			        </ul>
+					</li>
+			    </b></ul>
+				</div>
+		</div>
+<div class="det">
+		<br>TVS HOSPITAL<br>
+		  E-mail:tvs@gmail.com<br>
+		  Call-04364 277135 <br><br> 
+	 </div>
+	 </section>
+<center><h1><font color="blue">STAFFS</font></h1></center>
+<h4><font color="blue">Click on Doctor image to watch about their tips of healthy life. </font></h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.youtube.com/c/DoctorMike/videos">
+      <img src="john.jpeg" alt="DR.John" width="600" height="400">
+    </a>
+    <div class="desc">Dr.Jhon Mike...   Chief  Doctor</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.kauveryhospital.com/doctors/chennai/anaesthesiology/dr-velmurugan-deisingh">
+      <img src="vel.jpg" alt="vel" width="600" height="400">
+    </a>
+    <div class="desc">Dr.Velmurugan...Best anaesthesiology</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.india.com/viral/karnatakas-first-trans-woman-doctor-trinetra-haldar-gummaraju-shares-inspirational-journey-against-all-odds-4231464/">
+      <img src="transwomen.webp" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Dr.Hasini....1st Transwomen doctor</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://www.beebehealthcare.org/doctors/nisarg-desai-md">
+      <img src="neraj.jpg" width="600" height="400">
+    </a>
+    <div class="desc">R.Neeraj Best Healthcare</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+ <div class="copyright">copyright@2021 TVS HOSPITALITY.Kollidam,Tamilnadu.
+          Contents Published on this Website are Manged and Maintained by Thamizhazhaki.<br>
+        All Rights are Reserved.<br>	
+     </div>
+<div class="maintained">
+		 <marquee> OWNED by Thamizh</marquee></div><br>
+
+</body>
+</html>

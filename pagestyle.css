@@ -1,0 +1,107 @@
+h1
+{
+	color: darkblue;
+	text-align: center;
+	background-color: aliceblue;
+	font-size: 40px;
+}
+body
+{
+	background: url("abt.jpeg")no-repeat fixed;
+	background-size: cover;
+}
+.home
+{
+	color: blue;
+	font-size: 70px;
+	text-decoration:none;
+	margin-right: 100px;
+	line-height: 25px;
+	font-size: 30px;
+}
+.home:hover
+{
+	border:solid palevioletred 6px;
+}
+.dett
+{
+	text-align:right;
+	padding:0px 80px 0px 80px;
+	background: azure;
+	color: blueviolet;
+	font-family: "Lucida Grande";
+	line-height: 15px;
+}
+.maintained
+{   
+	text-align:right;
+	padding:0px 80px 0px 80px;
+	background: #05548e;
+	color: aqua;
+	font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+	line-height: 20px;
+}
+.copyright
+{
+	text-align:center;
+	padding:0px 80px 0px 80px;
+	background: azure;
+	color:blue;
+	font-family: "Arial";
+	line-height: 20px;
+}
+p{
+	margin: 30px;
+	line-height: 30px;
+	font-size: 25px;
+	color: aliceblue;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p.additional
+{
+	margin: 30px;
+	margin-right: 100px;
+	line-height: 25px;
+	font-size: 20px;
+	color: aliceblue;
+	font-family: 'Courier New', Courier, monospace;
+	text-align: justify;
+}
+p.additional1
+{
+	margin: 30px;
+	margin-right: 350px;
+	line-height: 25px;
+	font-size: 20px;
+	color: aliceblue;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: justify;
+}
+table,th,td
+{
+	margin: auto;
+	border: 1px solid #ffffff;
+	border-collapse: collapse;
+	font-family: 'arial';
+}
+th
+{
+	 font-size: 20px;
+	 color: white;
+}
+td
+{
+	color: white;
+}
+.rules
+{
+	margin-left: 330px;
+	margin-top: -15px;
+}
+
+h2
+{
+	color: antiquewhite;
+	margin-left: 20px;
+	text-decoration: underline;
+}
